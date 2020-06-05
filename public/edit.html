@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link href="./image/favicon.png" rel="icon" />
+    <title>Recipe App</title>
+  </head>
+  <body>
+    <div class="main__heading">
+      <h1 class="heading">RECIPE APP</h1>
+      <p class="sub__heading">Make Cooking Better</p>
+    </div>
+    <a href="./index.html">
+      <button class="button back__button">Back</button>
+    </a>
+    <div class="header">
+      <div class="edit__input__container">
+        <input class="edit__title" placeholder="Type title of the recipe" />
+        <textarea
+          name="Recipe Body"
+          class="edit__body"
+          cols="60"
+          rows="10"
+          placeholder="Type your recipe making steps"
+        ></textarea>
+      </div>
+      <h3 class="ingredients__heading">Ingredients</h3>
+      <div class="ingredients__container"></div>
+      <div class="add-ingredient__block">
+        <input
+          type="text"
+          class="add__ingredient"
+          placeholder="Add Ingredient"
+        />
+        <button class="btn__add-ingredient">Add</button>
+      </div>
+      <div class="delete-recipe__container">
+        <h4 class="delete-recipe__text">Danger Zone</h4>
+        <button class="button btn__delete-recipe">Delete Recipe</button>
+      </div>
+    </div>
+    <script src="./scripts/edit-bundle.js"></script>
+  </body>
+</html>
