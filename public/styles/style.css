@@ -99,6 +99,8 @@ a {
 .button__container {
   text-align: center;
   padding: 1rem 0;
+  margin-bottom: 4.5rem;
+  margin-top: 2.5rem;
 }
 .button {
   padding: 5px 30px;
